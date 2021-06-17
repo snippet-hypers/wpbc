@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+* {
+  box-sizing: border-box;
+}
+
+ .wpbc_container {
+   /* display:flex; */
+   width:100%
+
+ }
+
+ #canvas {
+   width:100%;
+ }
+ /* .st0 { fill: #76777B; }
+ .st1 { fill: #CFD3D7; }
+ .st2 { fill: #5D5E62; opacity: .5; } */
+ .st3 { font-family: 'Calibri'; }
+ .st4 { font-size: 16px; }
+ .wpbc_front_box { position:relative;}
+ .wpbc_select_option label { cursor:pointer; }
+ .wpbc_select_option:not(.wpbc_font_option) label input {display:none;}
+ .wpbc_color_option { display:inline;}
+ .wpbc_color_option label span { width:30px; height:30px; border-radius:3px; display:inline-block; border:1px solid #000; }
+ .wpbc_box { position:absolute; top:0; left:0; width:100%; height:100%; display:none; background-color:#fff; overflow:auto;}
+ .wpbc_heading {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   background-color: #ececec;
+   padding: 15px;
+ }
+ .wpbc_heading .wpbc_back {
+   width:25px;
+   cursor:pointer;
+ }
+ .wpbc_heading h2{
+   margin:0 auto;
+   font-size: 1rem;
+   text-transform: uppercase;
+ }
+.wpbc_front_options,
+.wpbc_back_options {
+  width:50%;
+  background-color: #fff;
+}
+.wpbc_root_list { padding: 0;}
+.wpbc_root_list > li { list-style-type: none; border-top: 1px solid #ccc; padding: 15px; }
+.wpbc_root_list > li:first-child {border-top: none; }
+.wpbc_root_list > li > label {
+  display: block; cursor: pointer; margin-bottom: 0;
+}
+
+
+.wpbc_message_box textarea#front_name{
+  height: 60px;
+  border:1px solid #ccc;
+  border-radius: 2px;
+}
+.wpbc_message_box textarea::-webkit-input-placeholder { /* Edge */
+  text-align: center;
+}
+
+.wpbc_message_box textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: center;
+}
+
+.wpbc_message_box textarea::placeholder {
+  text-align: center;
+}
+
+.wpbc_body ul { padding: 0;}
+.wpbc_body ul li {padding: 10px 15px;border-top: 1px solid #ccc;}
+.wpbc_select_option label { display: flex; align-items: center;justify-content: flex-start; margin-bottom: 0;}
+.wpbc_select_option label .wpbc_font_details { margin-left:15px;}
+.wpbc_select_option label .wpbc_font_details span {display:block; font-size:1.5rem; font-weight:bold}
+.wpbc_select_option.wpbc_text_added label .wpbc_font_details span.wpbc_font {font-weight: normal;font-size: 1rem;color: #999;}
