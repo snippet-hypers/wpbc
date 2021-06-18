@@ -46,7 +46,7 @@
               <path class="st0" style="fill: <?php echo $st0; ?>;" d="M60.28,112.43c0,0,16.05,15,180.52,15s165.48-15,165.48-15v-45h-346v46"/>
               <ellipse class="st1" style="fill: <?php echo $st1; ?>;opacity:0.3;" cx="234.57" cy="147.93" rx="155.5" ry="7.5"/>
                 <text transform="matrix(1 0 0 1 325.2451 144.7144)" class="st0 st1" id="id-of-the-text">hey</text>
-                 <text class="testText" id="testText" x="10" y="20" style="fill:red;">Several lines:
+                 <text class="testText" id="testText" x="10" y="20" style="fill:red;">Several lines: goes here
                   <tspan x="10" y="45">First line.</tspan>
                   <tspan x="10" y="70">Second line.</tspan>
                 </text>
